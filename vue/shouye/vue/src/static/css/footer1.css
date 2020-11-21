@@ -1,0 +1,330 @@
+/*底部*/
+footer {
+    margin-bottom: 80px;
+    width: 100%;
+
+  }
+  footer .layout {
+    background: #f9f9f9;
+ 
+}
+  footer .layout {
+    height: 100%;
+  }
+  .footer-img {
+      margin-bottom: 50px;
+  }
+  .footer-img img {
+      vertical-align:bottom ;
+  }
+
+  .footer-img a {
+    display: block;
+   
+}
+footer .service-container, .slogan-container {
+    background: #f9f9f9;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.slogan {
+  padding: 22px 0 20px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.slogan ul:before,
+.slogan ul:after {
+  content: '';
+  display: table;
+}
+.slogan ul:after {
+  clear: both;
+}
+.slogan li {
+  display: table-cell;
+  font-size: 18px;
+  color: #333;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+.slogan li:first-child {
+  padding-right: 120px;
+}
+.slogan li:first-child + li {
+  padding-right: 120px;
+}
+.slogan li:first-child + li + li {
+  padding-right: 110px;
+}
+.slogan li i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  background: url(../images/icon01.svg) no-repeat;
+}
+.slogan .s1 i {
+  background-position: -74px 0;
+}
+.slogan .s2 i {
+  background-position: -154px 0;
+}
+.slogan .s3 i {
+  background-position: -194px 0;
+}
+.slogan .s4 i {
+  background-position: -114px 0;
+}
+.service-container,
+.slogan-container {
+  background: #f9f9f9;
+  width: 100%;
+  min-width: 1200px;
+}
+.service {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 23px 0 24px;
+  width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.service:before,
+.service:after {
+  content: '';
+  display: table;
+}
+.service:after {
+  clear: both;
+}
+.service .service-l {
+  width: 920px;
+  height: 155px;
+  float: left;
+  padding-top: 5px;
+  border-right: 1px solid #e5e5e5;
+}
+.service .service-r {
+  width: 278px;
+  float: left;
+  min-height: 160px;
+  margin-top: 2px;
+  text-align: center;
+}
+.service dl {
+  float: left;
+}
+.service .service-l dl {
+  width: 16.66667%;
+}
+.service dt {
+  font-size: 14px;
+  color: #3a3a3a;
+}
+.service dt .title {
+  font-size: 14px !important;
+  padding-bottom: 7px;
+  color: #333;
+  display: block;
+  border-left: none;
+  padding-left: 0;
+  line-height: 1.5 !important;
+  margin-bottom: 0 !important;
+}
+.service dd li {
+  line-height: 22px;
+  color: #777;
+}
+.service dd a {
+  font-size: 12px;
+  color: #777;
+}
+.service dd a:hover {
+  color: #ca141d;
+  text-decoration: none;
+}
+.relative {
+  position: relative;
+}
+.service dt .button {
+  position: absolute;
+  left: 62px;
+  bottom: 5px;
+}
+.service dt .btn {
+  display: inline-block;
+  width: 10px;
+  height: 14px;
+  margin-right: 4px;
+  cursor: pointer;
+  text-indent: -999px;
+  overflow: hidden;
+}
+.service dt .btn:before {
+  content: '';
+  position: relative;
+  display: block;
+  text-indent: 0;
+  width: 10px;
+  height: 14px;
+  background: url(../images/icon03.svg) no-repeat;
+}
+.service dt .btn.disabled.btn-prev:before {
+  background-position: -96px 0;
+}
+.service dt .btn.btn-next:before {
+  background-position: -66px 0;
+}
+.service .service-r .s7 {
+  width: 279px;
+}
+.service dl {
+  float: left;
+}
+.service dl.s7 .title {
+  font-size: 24px !important;
+  padding: 0;
+  line-height: 24px;
+}
+.service .service-r .title {
+  font-size: 24px;
+  color: #575757;
+  font-weight: bold;
+}
+.service .service-r .s7 dd {
+  font-size: 14px;
+  color: #333;
+}
+.service dd li {
+  line-height: 22px;
+  color: #777;
+}
+.service .s7 dd li a {
+  color: #575757;
+}
+.service .service-r .s7 dd li a {
+  font-size: 14px;
+  color: #575757;
+}
+.service dd a.service-btn {
+  font-size: 14px;
+  color: #fff;
+}
+.service-btn i {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.service-btn i:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/icon03.svg) no-repeat;
+  background-position: -106px 0;
+  position: relative;
+  top: -2px;
+}
+.service dd a.service-btn:hover {
+  background: #777;
+}
+.service-btn {
+  display: block;
+  width: 170px;
+  height: 34px;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 34px;
+  background: #333;
+  cursor: pointer;
+  border-radius: 17px;
+}
+.service-code {
+  float: left;
+  width: 250px;
+  margin-top: 26px;
+  margin-left: 40px;
+}
+.service-code h2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  float: left;
+}
+.service-code ul {
+  float: left;
+  margin-left: 3px;
+}
+.service-code li {
+  width: 24px;
+  height: 24px;
+  margin-right: 11px;
+  position: relative;
+  float: left;
+}
+.service-code li a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-indent: -999px;
+  overflow: hidden;
+  background: url(../images/icon03.svg) no-repeat;
+}
+.service-code li:first-child a {
+  background-position: -126px 0;
+}
+.service-code li:first-child a:hover {
+  background-position: -126px -24px;
+}
+.service-code li:first-child + li a {
+  background-position: -150px 0;
+}
+.service-code li:first-child + li a:hover {
+  background-position: -150px -24px;
+}
+.service-code li:first-child + li + li a {
+  background-position: -174px 0;
+}
+.service-code li:first-child + li + li a:hover {
+  background-position: -174px -24px;
+}
+.service-code li:first-child + li + li + li a {
+  background-position: 0 -36px;
+}
+.service-code li:first-child + li + li + li a:hover {
+  background-position: -24px -36px;
+}
+.service-code li .service-code-img {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  background: #fff;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 1px 5px rgba(158, 158, 158, 0.6);
+}
+.service-code li .service-code-img img {
+  width: 108px;
+  height: 108px;
+  vertical-align: top;
+  margin: 6px;
+}
+.service-code li:hover .service-code-img {
+  display: block;
+}
+.h7 {
+  background: #f9f9f9;
+  width: 100%;
+  min-width: 1200px;
+  height: 95px;
+}
